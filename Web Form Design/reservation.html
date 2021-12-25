@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<header>
+<title>Reservation and Pizza Delivery</title>
+</header>
+<body>
+    <table align="center">
+        <tr>
+            <td width="300px">
+               
+            </td>
+            <td width="1105px" align="right">
+                <p>
+                    
+                    <a href="job_app.html">Job Application Form</a>|
+                    <a href="feedback.html">Feedback Form</a>|
+                    <a href="reservation.html">Room Reservation and Pizza Delivery</a>|
+                    <a href="">About Us</a>|
+                    <a href="">Contact Us</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <hr />
+<table align=center>
+    <tr>
+    <td>
+<h2>Reservation Request</h2>
+<fieldset>
+    <legend>
+        <big><b>General Information</b></big>    
+        </legend>
+        <br>
+        <label>
+            Arival Date:<input type="date" name="date" placeholder="dd/mm/yy" />
+        </label>
+        <br>
+        <label>
+            Nights:<input type="number" name="num" placeholder="number"/>
+        </label>
+        <br>
+        <label>
+            Adults:<input type="number" size="2" maxlength="100" />
+        </label>
+        <br>
+         <label>
+            Children:<input type="number" size="2" maxlength="100" />
+        </label>
+
+</fieldset>        
+<fieldset>
+        <legend> 
+            <big><b>Preferences</b></big>
+        </legend>
+        <br>
+        <label>
+            Room type:<input type="checkbox" name="Preferences" value="Standard" checked="checked"/> Standard
+                      <input type="checkbox" name="Preferences" value="Business"/> Business 
+                      <input type="checkbox" name="Preferences" value="Suite"/> Suite  
+        </label>
+        <br>
+        <label>
+            Bed type:<input type="checkbox" name="Preferences" value="King" checked="checked"/> King
+                      <input type="checkbox" name="Preferences" value="DoubleDouble"/> Doubledouble 
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="Preferences" value="Smoking"/> Smoking  
+        </label>
+</fieldset>
+<fieldset>
+    <legend>
+        <big><b>Contact Information</b></big>
+    </legend>
+    <br>
+    <label>
+        Name:<input type="text" name="name">
+    </label>
+    <br>
+    <label>
+        Email:<input type="email" name="email" placeholder="grace@yahoo.com">
+    </label>
+    <br>
+    <label>
+        Phone:<input type="tel" name="phone number" placeholder="123-456-789">
+    </label>
+    <br>
+     <label>
+        <input type="submit" name="submit" placeholder="Submit Regestration">
+    </label>
+    <label>
+        <input type="submit" name="Clear" placeholder="Clear">
+    </label>
+
+
+ </fieldset>  
+ </tr>
+</td>
+</table>  
+
+<hr>
+
+
+
+<form action="" >
+                <h1 align='center'>Pizza Delivery</h1>
+                <h2 align='center'>Online Order Form</h2>
+
+                <div align="center">
+                    <label for="name">*Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="tel" > &nbsp;&nbsp;&nbsp; *Tel: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="tel" name="tel" id="tel" required>
+                </div>
+                <br>
+                <div align="center">
+                    <label for="address">*Address: &nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" name="address" id="address" required>
+                    <label for="email" >&nbsp;&nbsp;&nbsp;&nbsp;*Email: </label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <br>
+                <div align="center">
+                    <label for="town">*Town/City: </label>
+                    <input type="text" name="town" id="town">
+                </div>
+                <br>
+                <div align="center">
+                    <label for="post">*Postcode: &nbsp;&nbsp;</label>
+                    <input type="text" name="post" id="post" pattern="\d{5}">
+                </div>
+                <p align="center">* - Required Fields</p>
+                <br>
+<table align="center">
+    <tr>
+        <td colspan="2" align="center"> <p>*required fields</p></td>
+        
+    </tr>
+    
+        <tr>
+            <td valign="top">
+            <fieldset>
+                <legend>Topping</legend>
+                <form>
+                      <input type="radio" name="topping" value="Margharita" checked> Margharita<br>
+                      <input type="radio" name="topping" value="Four Seasons"> Four Seasons<br>
+                      <input type="radio" name="topping" value="Meat Feast"> Meat Feast
+                </form>
+            </fieldset>
+            </td>
+            
+            <td valign="top">
+            <fieldset>
+                
+                <legend>Size</legend>
+                <form>
+                      <input type="radio" name="Size" value="Small" > Small<br>
+                      <input type="radio" name="Size" value="Medium"> Medium<br>
+                      <input type="radio" name="Size" value="Large"> Large
+                </form>
+
+            </fieldset>
+            </td>
+            <td valign="top">   
+            <fieldset>
+                
+                <legend>Extras</legend>
+                <form>
+                      <input type="checkbox" name="Extra1" value="Mushrooms" > Mushrooms<br>
+                      <input type="checkbox" name="Extra2" value="Green peppers"> Green peppers<br>
+                      <input type="checkbox" name="Extra3" value="Anchonies"> Anchonies<br>
+                      <input type="checkbox" name="Extra4" value="Extra cheese"> Extra cheese
+                </form>
+
+            </fieldset>
+            
+
+            </td>
+                
+        </tr>
+    
+</table>
+
+<br>
+
+<table align="center">
+                    <tr>
+                        <td width = "180px">
+                            <label for="delivery">Preferred Delivery Time</label>
+                        </td>
+                        <td width = "300px">
+                            <input type="time" name="delivery" id="delivery">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="textarea">Delivery Instructions or Address</label>
+                        </td>
+                        <td>
+                            <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+                        </td>
+                    </tr>
+               </table>
+               <br>
+              <div align="center">
+                <button type="submit">Submit Order</button>
+              </div>
+            </form>
+        </div>
+        
+
+        <hr>
+        <table align="center">
+            <tr>
+                <td align="left" width="300px">
+                    <p>
+                        Follow Us On: <a href="">Facebook</a>|
+                        <a href="">Twitter</a>
+                    </p>
+                </td>
+                <td align="right" width="1105px">
+                    <a href="job_app.html">Job Application Form</a>| 
+                    <a href="feedback.html">Feedback Form</a>|
+                    <a href="reservation.html">Room Reservation and Pizza Delivery</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    Copyright &copy; AASTU SEng 2021, All Rights Reserved
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

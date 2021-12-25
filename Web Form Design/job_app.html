@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Job Application</title>
+    </head>
+
+    <body>
+        <table align="center">
+            <tr>
+                <td width="300px">
+                    <h3>Job Application</h3>
+                </td>
+                <td width="1105px" align="right">
+                    <p>
+                        <a href="index.html">Home |</a>
+                        <a href="job_app.html">Job Application Form</a>| 
+                        <a href="feedback.html">Feedback Form</a>|
+                        <a href="reservation.html">Room Reservation and Pizza Delivery</a>|
+                        <a href="">About Us</a>|
+                        <a href="">Contact Us</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <hr />
+
+        <h1>Job Application</h1>
+        <p>
+            <form>
+<h3 align="center">Personal Information</h3>
+<div id="personal information">
+<label for="position">Position</label>
+<select name="postion" id="postion" multiple>
+<option value="computer programmer">Computer programmer
+</option>
+    <option value="Web developer">Web developer</option>
+    <option value="Programming anlyst">Programming anlyst</option>
+    <option value="Software Engineer">Software Engineer</option>
+    <option value="Mobile app developer">Software Engineer</option>
+<br><br>
+<label for="fname">First name</label>
+    <input type="text" name="fname" id="fname" placeholder="first name">
+<label for="lname">Last name</label>
+<input type="text" name="lname" id="lname" placeholder="last name"><br>
+<label for="nationality">Nationality</label>
+<input type="text" name="nationality" id="nationality" placeholder="nationality"><br>
+<label for="date">Date of birth </label>
+<input type="date" name="date" id="date" min="1990-01-01"><br>
+<label for="address">Address</label>
+<textarea id="address" name="address" row="5" cols="15" placeholder="Type your address..."></textarea><br>
+<label for="phone">Phone number</label>
+<input type="tel" name="phone" id="phone" placeholder="phone number" required><br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" placeholder="email" required>
+</div>
+<div>
+<h3 align="center">Education details</h3>
+<table>
+<tr>
+<td>No. </td>
+<td>Qualification </td>
+<td>Institute/university </td>
+<td>Year of passing </td>
+</tr>
+<tr>
+<td>1</td>
+<td><input type="text" size="25"></td>
+<td><input type="text" size="25"></td>
+<td><input type="month" size="25"></td>
+</tr>
+<tr>
+<td>2</td>
+<td><input type="text" size="25"></td>
+<td><input type="text" size="25"></td>
+<td><input type="month" size="25"></td>
+</tr>
+<tr>
+<td>3</td>
+<td><input type="text" size="25"></td>
+<td><input type="text" size="25"></td>
+<td><input type="month" size="25"></td>
+</tr>
+</table>
+</div>
+
+
+<div id="work-exp-1">
+<h3>Work Experience 1</h3>
+<table>
+<tr>
+<td>No.</td>
+<td>Company Address</td>
+<td>Work</td>
+<td colspan="2">Duration(from-to)</td>
+</tr>
+<tr>
+<td>1</td>
+<td><textarea rows="5" cols="30"></textarea>
+<td><textarea rows="5" cols="30"></textarea>
+<td><input type="month" size="25"></td>
+<td><input type="month" size="25"></td>
+</tr>
+</table>
+</div>
+
+<div id="work-exp-2">
+<h3>Work Experience 2</h3>
+<table>
+<tr>
+<td>No.</td>
+<td>Company Address</td>
+<td>Work</td>
+<td colspan="2">Duration(from-to)</td>
+</tr>
+<tr>
+<td>1</td>
+<td><textarea rows="5" cols="30"></textarea>
+<td><textarea rows="5" cols="30"></textarea>
+<td><input type="month" size="25"></td>
+<td><input type="month" size="25"></td>
+</tr>
+</table>
+</div>
+<div>
+Upload cv:<input type="file" name="cv"><br>
+<label for="experience">Experience</label>
+<input type="number" name="experience" id="experience" min="0" max="10">
+</div>
+
+<div>
+<label for="statement">Personal Statment</label>
+<textarea id="statement" name="statment" rows="5">
+</div>
+
+<div>
+<h3>First reference</h3>
+<label for="fname">First name</label>
+<input type="text" name="fname" id="fname" placeholder="first name"><br>
+<label for="lname">Last name</label>
+<input type="text" name="lname" id="lname" placeholder="last name"><br>
+<label for="occupation">Occupation</label>
+<textarea id="occupation" name="occupation" row="5" cols="15" placeholder="Type your occupation..."></textarea><br>
+<label for="marital_status">Relationship</label>
+<selet name="marital_status" id="marital_status">
+    <option value="single">Single</option>
+    <option value="married">Married</option>
+    <option value="widowed">Widowed</option>
+    <option value="separated">Separated</option>
+    <option value="divorced">Divorced</option><br>
+</div>
+
+<label for="address">Address</label>
+<textarea id="address" name="address" row="5" cols="15" placeholder="Type your address..."></textarea><br>
+<label for="phone">Phone number</label>
+<input type="tel" name="phone" id="phone" placeholder="phone number" ><br>
+</div>
+
+<div>
+<h3>Second Reference</h3>
+<label for="fname">First name</label>
+<input type="text" name="fname" id="fname" placeholder="first name"><br>
+<label for="lname">Last name</label>
+<input type="text" name="lname" id="lname" placeholder="last name"><br>
+<label for="occupation">Occupation</label>
+<textarea id="occupation" name="occupation" row="5" cols="15" placeholder="Type your occupation..."></textarea><br>
+<label for="relationship">Relationship</label>
+<selet name="relationship" id="marital_status">
+    <option value="single">Single</option>
+    <option value="married">Married</option>
+    <option value="widowed">Widowed</option>
+    <option value="separated">Separated</option>
+    <option value="divorced">Divorced</option>
+<label for="address">Address</label>
+<textarea id="address" name="address" row="5" cols="15" placeholder="Type your address..."></textarea><br>
+<label for="phone">Phone number</label>
+<input type="tel" name="phone" id="phone" placeholder="phone number" ><br>
+</div>
+
+<div>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</div>
+
+</form>
+
+
+        <hr />
+        <table align="center">
+            <tr>
+                <td align="left" width="300px">
+                    <p>
+                        Follow Us On: <a href="">Facebook</a>|
+                        <a href="">Twitter</a>
+                    </p>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    Copyright &copy; AASTU SEng 2021, All Rights Reserved
+                </td>
+            </tr>
+        </table>
+
+
+    </body>
+
+
+
+</html>
