@@ -1,0 +1,177 @@
+
+<!Doctype html>
+<html>
+	<head>
+		<title>Life hacks index.pdf</title>
+	</head>
+	<body>
+		<table align="center">
+			<tr>
+				<td width="935px">
+					<img src="resources/images/logo_gold.png" width="50px" />
+				</td>
+	
+				<td>
+					<p align="right">
+						
+						<a href="lab2.html">Podcasts</a>| 
+						<a href="">Articles</a>|
+						<a href="">Ideas</a>| 
+						<a href="">About Us</a>|
+						<a href="">Contact Us</a>|
+						<a href="register.html">Register</a>|
+						<a href="sign_in.html">Sign In</a>
+					</p>
+				</td>
+			</tr>
+		</table>
+		<hr />
+	
+	<table cellspacing="40px">
+	   <tr><td width="70"></td>
+	       <td width="800"></td>
+	       <td  align="right"><a href="0">Go to bottom</a></td>
+		<td width="70"></td>
+           </tr>
+	   <tr> <td width="70"></td>
+		<td ><h1>Eric hoffer and the power of self education</h1>
+			<img id="eric" src="resources/images/banners/life1.jpg" width="1000px" alt="a guy Enjoying a beautiful sunset" usemap="#imagemap">
+			<map name="imagemap">
+				<area target="" alt="sun" title="sun" href="https://www.google.com"
+					coords="228,162,249,124,273,115,294,120,311,130,331,156,339,180,335,198,317,207,297,207,274,199,245,191"
+					shape="poly">
+				<area target="" alt="bag" title="bag" href="https://www.amazon.com\bags"
+					coords="812,216,807,231,803,267,803,286,803,311,807,328,808,347,820,366,833,369,848,370,867,365,873,342,873,319,873,288,873,265,873,245,863,223,851,212,841,204"
+					shape="poly">
+				<area target="" alt="head" title="head" href="https://www.facebook.com/travellife"
+					coords="740,207,734,191,731,180,731,167,723,151,738,140,763,134,780,147,789,161,784,179,781,195" shape="poly">
+			</map></image>
+		   <p>I recently read The True Believer by Eric Hoffer. It's a book about how mass movements evolve. With a lot of historical examples,
+                      the book explains the patterns and common threads among them. It's an insightful book and reading it was a great learning experience for me.</p>
+                   <p><img src="gvhkdfv" alt="The True Beliver book cover" align="left" width="100" height="100">What I'd like to share with you here is not the content 
+			of the book, though. Instead, I'd like to share with you about the author.<br/> You see, I didn't know about Eric Hoffer before. But I imagined he must be a famous professor from a well-known university. I mean, what else could 
+                      explain the depth of his insights? The True Believer is an influential book. Here is how <a href="0">Wikipedia </a> put it... <a href="0">read more</a></p>
+		</td>
+
+
+
+		<td><h2>Recent posts</h2>
+				<details>
+
+					<summary>
+						
+							Articles
+					</summary>
+					
+				<ul>
+					<li>The Importance of Goals, Especially During Difficult Times</li>
+
+				    <li> 5 Steps to Discovering Your Life Purpose In 2022!</li>
+
+				</ul>
+                </details>
+<details>
+
+<summary>
+	Ideas
+</summary>
+<ul>
+	<li >10 Books to Read in The Fall</li>
+	<li >Top Web Development Projects Ideas </li>
+</ul>
+</ul>
+</details>							
+
+
+
+
+		<h2>Most Viewed Articls</h2>
+			<ol type=I id="ol"><li id="one">Instant Gratification Is Stopping You From Reaching Your Goals! 
+				    <li id="two">Stop Juggling Between Work And Life
+			</ol>
+
+
+		<h2>IP Project Winners</h2>
+		   <pre>
+--------------------------------
+Rank    Award
+--------------------------------
+First   Free hosting and support
+Second  5GB Mobile Data 
+Third   1GB Mobile Data 
+--------------------------------
+		 </pre>
+		</td>
+		<td width="70"></td>
+		</tr>
+                <tr> 
+		     <td width="70"></td>
+		     <td><hr noshade/>
+                <h2><button onclick="swap()">Swap</button>
+                    <button onclick="add()">Add Element</button>
+                    <button onclick="removeAudio()">Remove audio</button></h2>
+                    <button onclick="removeVideo()">Remove video</button></h2>
+                    <hr>
+			<div id="audio">
+			<h2>New Podcast</h2>
+			<h1>Jack Ma - How I Overcame Failure</h1>
+			
+			<audio id="aud" src=".\resources\audio\Jack Ma - How I Overcame Failure.mp3" controls></audio></div>
+			<hr noshade/>
+			<div id="temp"></div>
+			<div id="video">
+			<h2>pick of the week</h2>
+			<h1>24 Hours a Day</h1>
+			<video id="vid" src=".\resources\video\24_HOURS.mp4" controls width="700"></video></div>
+			</td>
+		     <td></td>
+		     <td width="70"></td>
+		<tr><td width="70"></td>
+		    <td colspan="2"><hr noshade/></td>
+		     <td></td>
+		<td width="70"></td>	
+		<tr><td width="70"></td>
+		    <td >Follow Us On: <a href="podcast">Facebook |</a><a href="podcast"> Twitter</a></td>
+		     <td align="rigth"><a href="podcast"> Privacy | </a><a href="podcast">Terms of Use</a></td>
+		<td width="70"></td>
+		<tr><td width="70"></td>
+		    <td colspan="2" align ="center">Copyright  © AASTU SEng 2021, All Rights Reserved</td>
+		     <td></td>
+		<td width="30"></td>	
+	</table>
+	<script>
+		function swap(){
+			var aud = document.getElementById("audio");
+			var vid = document.getElementById("video");
+			var temp = document.getElementById("temp");
+			
+			aud.parentNode.replaceWith(vid, aud);
+			temp.parentNode.replaceWith(temp, aud);
+		}
+
+
+		function add(){
+			const para = document.createElement("li");
+const node = document.createTextNode("This is new list added");
+para.appendChild(node);
+const element = document.getElementById("ol");
+element.appendChild(para);
+		}
+
+
+		function removeAudio(){
+			var myobj = document.getElementById("aud");
+  myobj.remove();
+		}
+
+        function removeVideo(){
+            var myObj =  document.getElementById("vid")
+            myObj.remove()
+        }
+
+		
+	</script>
+	
+	</body>
+</html>
+ 
