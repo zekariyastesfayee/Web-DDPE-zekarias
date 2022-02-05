@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in javascript</title>
+    <style>
+        .concatenate{
+            width: 30%;
+            box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+            background-color: azure;
+        }
+
+        input{
+            size: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="fullname">Full Name</label><br>
+        <input type="text" id="fullname" name="FullName" required ><br>
+        <label for="phone">Phone</label><br>
+        <input type="text" id="phone" name="Phone" required"><br>
+        <label for="age">Age</label><br>
+        <input type="number" name="Age" id="age" required><br>
+       
+
+        <label for="country">Country</label><br>
+        <select name="Country" id="country">
+            <option value="USA">USA</option>
+            <option value="CANADA">CANADA</option>
+            <option value="GERMANY">GERMANY</option>
+            <option value="ITALY">ITALY</option>
+        </select><br>
+        <label for="photo">Photo</label><br>
+        <input type="file" name="Photo" id="photo"><br>
+        <label for="describe">comment</label><br>
+        <textarea name="Desc" id="describe" cols="40" rows="10"></textarea><br>
+
+    </form>
+    <button type="submit" id="submit">Submit</button>
+    <div id="parent"></div>
+
+    <script src="object.js"></script>
+</body>
+
+</html>
